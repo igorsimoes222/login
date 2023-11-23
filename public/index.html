@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/public/style.css">
+    <link rel="stylesheet" href="/public/table.css">
+    <title>Login</title>
+</head>
+<body>
+    <div class="login-container">
+        <!-- Adicione uma tag <img> para exibir a imagem acima do título -->
+        <img src="/public/img/logo_semclinic.png"  id="clinicLogo" class="logo-image">
+        <h2 id="clinicName">Login</h2>
+        <form id="loginForm">
+            <label for="clinic">Selecione a Clínica:</label>
+            <select id="clinic" name="clinic" onchange="updateClinicInfo()">
+                <option value="semclinic">Escolha uma Opção</option>
+                <option value="clinic1">Az Radiologia</option>
+                <option value="clinic2">RR Imagem</option>
+                <option value="clinic3">Clínica Serraro</option>
+            </select>
+
+            <label for="username">Usuário:</label>
+            <input type="text" id="username" name="username" required>
+
+            <label for="password">Senha:</label>
+            <input type="password" id="password" name="password" required>
+
+            <button type="button" onclick="previewLogin()">Pré-visualizar</button>
+            <button type="button" onclick="login()">Entrar</button>
+
+            <div id="previewContainer" style="display: none;">
+                <h3>Pré-visualização:</h3>
+                <p id="previewMessage"></p>
+            </div>
+        </form>
+    </div>
+<script src="app.js"></script>
+    
+</body>
+</html>

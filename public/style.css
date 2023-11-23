@@ -1,0 +1,79 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.login-container {
+    max-width: 500px;
+    padding: 40px;
+    border: 3px solid #000000;
+    border-radius: 7px;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+label {
+    margin-top: 20px;
+}
+
+input {
+    margin-bottom: 10px;
+    padding: 10px;
+}
+
+button {
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px;
+    border: 2px solid black;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+/* Adicione este estilo para ajustar a imagem */
+.logo-image {
+    width: 100px; /* Ajuste conforme necessário */
+    height: auto;
+    margin-bottom: 20px; /* Adiciona um espaço abaixo da imagem */
+}
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff; /* Azul bem clarinho */
+}
+
+.login-container {
+    max-width: 500px;
+    margin: 200px auto; /* Centraliza o container na tela */
+    padding: 80px;
+    background-color: #57beb9; /* Fundo branco para o contêiner de login */
+    border-radius: 10px; /* Borda levemente arredondada */
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.1); /* Sombra suave */
+}
+
+#clinicLogo {
+    display: block;
+    margin: 0 auto; /* Centraliza a imagem */
+    width: 120px; /* Ajuste o tamanho da imagem conforme necessário */
+    height: 120px; /* Ajuste o tamanho da imagem conforme necessário */
+    border-radius: 50%; /* Torna a imagem circular com bordas levemente arredondadas */
+}
+
+#clinicName {
+    text-align: center;
+    color: #000000; /* Cor do texto */
+    font-size: 30PX;
+}
+
+/* Restante do seu estilo aqui... */
